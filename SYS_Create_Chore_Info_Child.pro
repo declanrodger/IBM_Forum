@@ -4,7 +4,7 @@
 586,"./test1.cho"
 585,"C:\Users\DeclanRodger\Downloads\test2.cho"
 564,
-565,"e8J_;a:aL=:ghhbqe8J5aoKA;0vRN\vda=L5mMZti>sTTz;]mb\\53MvHtQwdPoPTgu^8SMK9bcK?vnWaN?\qWMe6q5FlVkb>TvP0X799uwWEGN2;ctdD_C[P[^eqL7bkxzWs=iO=r<[=k^vUm[Rp8L7[VbL5h4F8HYWY@[>>jBZ;ROpQ`zl3cgcPnhn6K35tOe0]N@2"
+565,"bia2eF<EaVBoeKE4uG@g6D8>p5K76C[x>LTb\g`RmXk[JKKHI>i2xmIie2oOP_u1Kv?AYwnUact<_87guE0r^f:yHSMOHzi?nwMhXImvAZFD?AjCrsw3sk1Drm=:aJdVThPQZN]Bl=Twp5JowQ@i0Yt`?V]@UT4Sbayp=Mq7hCVEqrHq>I5<j0hQ?P:`adKypdz:1V:H"
 559,1
 928,0
 593,
@@ -76,7 +76,7 @@ DataSourceNameForServer = './' | psChoreName | '.cho';
 
 #****Begin: Generated Statements***
 #****End: Generated Statements****
-574,36
+574,40
 
 #****Begin: Generated Statements***
 #****End: Generated Statements****
@@ -103,6 +103,10 @@ ElseIf ( vsKey @= '531' );
 	nFreqTot = nFreqDay + nFreqHour + nFreqMin + nFreqSec;
 
 	CellPutN ( nFreqTot, cCubeName, psChoreName, 'Frequency' );
+
+ElseIf ( vsKey @= '532' );
+	# This key is for number of called processes 
+	CellPutN ( StringToNumber ( vsInfo ), cCubeName, psChoreName, 'Process Count' );
 
 ElseIf ( vsKey @= '533' );
 	# This key is an active flag

@@ -4,7 +4,7 @@
 586,
 585,
 564,
-565,"zt@9RNvaigG5W:<`_I?FpWe8=ca>gq\pYk:n;^1`mGrIo[EG7du47ZU1x7_p?1D>h7I[]\tegjtWy5sG1fEa1B;B4:0WC1K4BDm_2jjfynp0HSMx5^vytoHz[9<q6LuA7Lg0a[JIpw]]04S]s1=ZX6M91J0Wo7>cm3PIzZJjL2UV>K6VJnySGKBqyUrPT`mN[>GpDe5M"
+565,"eRBRCa0z1EtB:9QzP_vA:\2p0@<q45FjYkL:NrLDArrkgYZp@x[Yt@X`;Ca_PmIZWUtZ^i_^XN42C4hhMxS]lJt11Xlb0H3oBL2gNW2;zV1hNovd^Hk:HzdkBboV5J`?q^^AFhn?[JF>]km^w@hpsxe?5IzdKu?VFd5lSHu5Bnw7WTs[?7owpXvd0^hmhnH45l5Lwr<H"
 559,1
 928,0
 593,
@@ -36,7 +36,7 @@
 581,0
 582,0
 603,0
-572,40
+572,41
 
 #****Begin: Generated Statements***
 #****End: Generated Statements****
@@ -66,6 +66,7 @@ DimensionElementInsert ( cDimMeasures, '', 'Multiple Commit Mode', 'N' );
 DimensionElementInsert ( cDimMeasures, '', 'Start Date', 'S' );
 DimensionElementInsert ( cDimMeasures, '', 'Start Time', 'S' );
 DimensionElementInsert ( cDimMeasures, '', 'Frequency', 'N' );
+DimensionElementInsert ( cDimMeasures, '', 'Process Count', 'N' );
 
 AttrInsert ( cDimMeasures, '', 'Format', 'S' );
 
