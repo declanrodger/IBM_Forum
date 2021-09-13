@@ -1,0 +1,17 @@
+cOutputFile = 'C:\test.txt'; 
+sString = 'String'; 
+nNumeric = 1; 
+
+iCount = 1; 
+iMax = 10000000; 
+While ( iCount <= iMax ); 
+   #TextOutput ( cOutputFile, Expand ( '%sString%, %nNumeric%' ) ); 
+   #TextOutput ( cOutputFile, sString, NumberToString ( nNumeric ) ); 
+   #TextOutput ( cOutputFile, Expand ( '%sString%' ) ); 
+   #TextOutput ( cOutputFile, sString ); 
+   #TextOutput ( cOutputFile, Expand ( '%nNumeric%' ) ); 
+   #TextOutput ( cOutputFile, NumberToString ( nNumeric ) ); 
+   #TextOutput ( cOutputFile, Expand ( '%nNumeric%, %nNumeric%, %nNumeric%' ) ); 
+   #TextOutput ( cOutputFile, NumberToString ( nNumeric ), NumberToString ( nNumeric ), NumberToString ( nNumeric ) ); 
+   iCount = iCount + 1; 
+End;
